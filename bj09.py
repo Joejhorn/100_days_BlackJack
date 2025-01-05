@@ -2,7 +2,10 @@ import sys, random
 
 # select a card from the card list, add it to the deck, which is in place in main, thus no return is needed
 def get_card(deck,num_cards):
-    cards = [11,10,11,10,11,10,11,8,6,7,8,9,6,5,4,3,2]
+    cards = [2,3,4,5,6,7,8,9,10,10,10,10,11,
+             2,3,4,5,6,7,8,9,10,10,10,10,11,
+             2,3,4,5,6,7,8,9,10,10,10,10,11,
+             2,3,4,5,6,7,8,9,10,10,10,10,11]
 
     for i in range(num_cards):
         card = cards[random.choice(cards)]
